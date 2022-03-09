@@ -1,0 +1,12 @@
+.App {
+}
+.Display {
+  height: 500px;
+}
+.floc {
+  position: relative;
+}
+html,
+body {
+  height: 100%;
+}
