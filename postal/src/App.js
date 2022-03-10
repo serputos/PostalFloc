@@ -45,7 +45,7 @@ function crearFlocs() {
   ];
 }
 function nouFloc() {
-  return { x: Math.random() * 100 + 1, y: Math.random() * -20 };
+  return { x: -20 + Math.random() * 120, y: Math.random() * -20 };
 }
 
 function moureFlocs(flocs) {
@@ -53,15 +53,15 @@ function moureFlocs(flocs) {
 }
 
 function moureFloc({ x, y }) {
-  if (y >= 100) {
+  if (y >= window.innerHeight) {
     return {
-      x: x + Math.random() * 1.5 - Math.random() * 1.5,
-      y: -10 + Math.random() * 3,
+      x: x + Math.random() * 2 - Math.random() * 2,
+      y: -10 + Math.random() * 10,
     };
   } else {
     return {
-      x: x + Math.random() * 1.5 - Math.random() * 1.5,
-      y: y + Math.random() * 3,
+      x: x + Math.random() * 2 - Math.random() * 2,
+      y: y + Math.random() * 10,
     };
   }
 }
@@ -73,7 +73,7 @@ export default function Nevada() {
   useEffect(() => {
     setInterval(() => {
       setFlocs((tots) => moureFlocs(tots));
-    }, 50);
+    }, 70);
   }, []);
 
   /*useEffect(() => {
