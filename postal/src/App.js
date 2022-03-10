@@ -25,10 +25,27 @@ function crearFlocs() {
     nouFloc(),
     nouFloc(),
     nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
+    nouFloc(),
   ];
 }
 function nouFloc() {
-  return { x: Math.random() * 100 + 1, y: -10 };
+  return { x: Math.random() * 100 + 1, y: Math.random() * -20 };
 }
 
 function moureFlocs(flocs) {
@@ -36,24 +53,33 @@ function moureFlocs(flocs) {
 }
 
 function moureFloc({ x, y }) {
-  return {
-    x: x + Math.random() * 1.5 - Math.random() * 1.5,
-    y: y + Math.random() * 2,
-  };
-}
-function setSpawnTime() {
-  return crearFlocs();
+  if (y >= 100) {
+    return {
+      x: x + Math.random() * 1.5 - Math.random() * 1.5,
+      y: -10 + Math.random() * 3,
+    };
+  } else {
+    return {
+      x: x + Math.random() * 1.5 - Math.random() * 1.5,
+      y: y + Math.random() * 3,
+    };
+  }
 }
 
 export default function Nevada() {
   let [flocs, setFlocs] = useState(crearFlocs());
-  let [pos, setPos] = useState(nouFloc());
+  // let [spawn, setSpawn] = useState(flocs);
 
   useEffect(() => {
     setInterval(() => {
       setFlocs((tots) => moureFlocs(tots));
-    }, 70);
+    }, 50);
   }, []);
+
+  /*useEffect(() => {
+    setFlocs(flocs); // infinite loop
+  }, [flocs]);
+  console.log(setFlocs());*/
 
   return (
     <div className="App">
