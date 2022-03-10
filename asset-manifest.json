@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.187f062c.css",
-    "main.js": "/static/js/main.0a99183c.js",
-    "static/js/787.78223aad.chunk.js": "/static/js/787.78223aad.chunk.js",
-    "index.html": "/index.html",
-    "main.187f062c.css.map": "/static/css/main.187f062c.css.map",
-    "main.0a99183c.js.map": "/static/js/main.0a99183c.js.map",
-    "787.78223aad.chunk.js.map": "/static/js/787.78223aad.chunk.js.map"
+    "main.css": "/PostalFloc/static/css/main.187f062c.css",
+    "main.js": "/PostalFloc/static/js/main.a4d3fec5.js",
+    "static/js/787.78223aad.chunk.js": "/PostalFloc/static/js/787.78223aad.chunk.js",
+    "index.html": "/PostalFloc/index.html",
+    "main.187f062c.css.map": "/PostalFloc/static/css/main.187f062c.css.map",
+    "main.a4d3fec5.js.map": "/PostalFloc/static/js/main.a4d3fec5.js.map",
+    "787.78223aad.chunk.js.map": "/PostalFloc/static/js/787.78223aad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.187f062c.css",
-    "static/js/main.0a99183c.js"
+    "static/js/main.a4d3fec5.js"
   ]
 }
