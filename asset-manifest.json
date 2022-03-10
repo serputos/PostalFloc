@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PostalFloc/static/css/main.187f062c.css",
-    "main.js": "/PostalFloc/static/js/main.a4d3fec5.js",
+    "main.css": "/PostalFloc/static/css/main.97e2c00d.css",
+    "main.js": "/PostalFloc/static/js/main.1b888875.js",
     "static/js/787.78223aad.chunk.js": "/PostalFloc/static/js/787.78223aad.chunk.js",
     "index.html": "/PostalFloc/index.html",
-    "main.187f062c.css.map": "/PostalFloc/static/css/main.187f062c.css.map",
-    "main.a4d3fec5.js.map": "/PostalFloc/static/js/main.a4d3fec5.js.map",
+    "main.97e2c00d.css.map": "/PostalFloc/static/css/main.97e2c00d.css.map",
+    "main.1b888875.js.map": "/PostalFloc/static/js/main.1b888875.js.map",
     "787.78223aad.chunk.js.map": "/PostalFloc/static/js/787.78223aad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.187f062c.css",
-    "static/js/main.a4d3fec5.js"
+    "static/css/main.97e2c00d.css",
+    "static/js/main.1b888875.js"
   ]
 }
